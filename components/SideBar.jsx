@@ -53,7 +53,7 @@ const SideBar = () => {
           <div className='me-info w-full lg:h-[350px] h-[120px] bottom-border-2 md:grid lg:place-content-center'>
             <div className='lg:border-b-[2px] border-[#383838] pb-8 flex lg:block'>
               <div className='lg:w-[150px] lg:h-[150px] w-[100px] h-[100px] lg:ml-6 mt-2 ml-2  rounded-full flex items-center justify-center'>
-                <Image src={meimg} />
+                <Image src={meimg} alt='my-img'/>
               </div>
               <div className='lg:text-[25px] text-[18px] lg:mt-3 mt-[30px] ml-[10px] font-bold'>
                 <Link href={'/'} ref={el}><h2></h2></Link>
