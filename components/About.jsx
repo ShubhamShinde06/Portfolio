@@ -12,7 +12,7 @@ const About = () => {
         <h1 className='text-[30px] font-bold '>About Me</h1>  
         <hr className='mt-5 w-[45px] h-[3px] border-2 border-[#FDC763] rounded-md' />
         <p className='mt-5 text-[#D3D3D3] break-all'>
-        I'm Creative Web developer  from Mumbai, India, working in web development and Tawasul Tech Private Limited. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+          I'm Creative Web developer  from Mumbai, India, working in web development and Tawasul Tech Private Limited. I enjoy turning complex problems into simple, beautiful and intuitive designs.
         </p>
         <p className='mt-3 text-[#D3D3D3] break-all'>
         My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. 
