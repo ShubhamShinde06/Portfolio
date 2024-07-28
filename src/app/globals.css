@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+*{
+  
+  font-family: "DM Sans", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  color: rgb(var(--foreground-rgb));
+  background:#121212;
+}
+
+*::selection {
+  color: #121212;
+  background-color: #FFDB70;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+li{
+  list-style: none;
+}
+
+.shadow-inner{
+  box-shadow: 0.5px 0.5px 1px rgba(255, 255, 255, 0.455) inset;
+}
+
+.skills {
+  padding: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.skill {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.title {
+  color: #fff;
+  font-weight: 700;
+}
+
+.progress-bar {
+  background: #383838;
+  border-radius: 10px;
+  width: 100%;
+  height: 8px;
+  margin-top: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#html .progress {
+  max-width: 95%;
+  height: 100%;
+  background:linear-gradient(to left,#FFC361);
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#html .progress::after {
+  content: "95%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#html .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+#css .progress {
+  max-width: 95%;
+  height: 100%;
+  background: #ed2828;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#css .progress::after {
+  content: "95%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#css .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+#js .progress {
+  max-width: 50%;
+  height: 100%;
+  background: #ed2828;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#js .progress::after {
+  content: "50%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#js .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+#html .progress,#css .progress,#js .progress{
+  background: #FFC361;
+}
+
+
+#fr .progress {
+  max-width: 90%;
+  height: 100%;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+  background: #FFC361;
+}
+
+#fr .progress::after {
+  content: "90%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#fr .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+
+#ba .progress {
+  max-width: 45%;
+  height: 100%;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+  background: #FFC361;
+}
+
+#ba .progress::after {
+  content: "45%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#ba .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+
+#php .progress {
+  max-width: 40%;
+  height: 100%;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+  background: #FFC361;
+}
+
+#php .progress::after {
+  content: "40%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#php .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+
+#sql .progress {
+  max-width: 75%;
+  height: 100%;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+  background: #FFC361;
+}
+
+#sql .progress::after {
+  content: "75%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#sql .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+#re .progress {
+  max-width: 80%;
+  height: 100%;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+  background: #FFC361;
+}
+
+#re .progress::after {
+  content: "80%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#re .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+#ne .progress {
+  max-width: 70%;
+  height: 100%;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+  background: #FFC361;
+}
+
+#ne .progress::after {
+  content: "70%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#ne .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+
+#ma .progress {
+  max-width: 75%;
+  height: 100%;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+  background: #FFC361;
+}
+
+#ma .progress::after {
+  content: "75%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#ma .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+
+#jq .progress {
+  max-width: 50%;
+  height: 100%;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+  background: #FFC361;
+}
+
+#jq .progress::after {
+  content: "50%";
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 15px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  padding: 2px 3px;
+  border-radius: 4px;
+  right: -18px;
+  top: -30px;
+}
+
+#jq .progress::before {
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  right: -5px;
+  top: -12px;  
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+
+
+@keyframes loadBars{
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+  
+}
+
+
+
+@media only screen and (width:1280px) {
+  .sidebar {
+    margin-left: -80px;
+    overflow: scroll;
+  }
+
+  .header{
+    width: 400px;
+    margin-right: -30px;
+    background: none;
+  }
+
+  .header-item{
+    width: 550px;
+    height: 60px;
+    align-items: center;
+    background: #282829;
+    padding-left: 30px;
+    border-bottom-left-radius: 30px;
+  }
+
+
+  
+}
