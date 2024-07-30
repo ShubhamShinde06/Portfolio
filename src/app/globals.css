@@ -130,7 +130,7 @@ li{
 }
 
 #css .progress::after {
-  content: "95%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
@@ -165,7 +165,7 @@ li{
 }
 
 #js .progress::after {
-  content: "50%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
@@ -205,7 +205,7 @@ li{
 }
 
 #fr .progress::after {
-  content: "90%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
@@ -241,7 +241,7 @@ li{
 }
 
 #ba .progress::after {
-  content: "45%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
@@ -277,7 +277,7 @@ li{
 }
 
 #php .progress::after {
-  content: "40%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
@@ -313,7 +313,7 @@ li{
 }
 
 #sql .progress::after {
-  content: "75%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
@@ -348,7 +348,7 @@ li{
 }
 
 #re .progress::after {
-  content: "80%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
@@ -383,7 +383,7 @@ li{
 }
 
 #ne .progress::after {
-  content: "70%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
@@ -419,7 +419,7 @@ li{
 }
 
 #ma .progress::after {
-  content: "75%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
@@ -455,7 +455,7 @@ li{
 }
 
 #jq .progress::after {
-  content: "50%";
+  content: "";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
