@@ -9,7 +9,7 @@ const Resume = () => {
     <>
     <div className='lg:w-[70%] h-[100vh] absolute lg:top-[0px] right-0  p-4 md:p-4 lg:p-0 top-[85px] md:overflow-scroll'>
       <div className='bg-[#1E1E1F] lg:w-[80%] w-[100%] md:w-[100%] h-auto pb-[80px] rounded-2xl mt-[65px] mb-[67px] md:mt-[50px] lg:mt-[65px] border-[#343434] border-[1px] p-8 md:p-4  relative overflow-hidden lg:ml-8'>
-        <Link href={'/pdf'}><h1 className='text-[30px] font-bold '>Resume</h1></Link>
+        <Link href={'/pdf'}><h1 className='text-[30px] font-bold text'>Resume</h1></Link>
         <hr className='mt-5 w-[45px] h-[3px] border-2 border-[#FDC763] rounded-md' />
         
         <div className='mt-9 ml-5'>
@@ -81,81 +81,37 @@ const Resume = () => {
           <h1 className='text-[25px] font-bold'>My Skills</h1>
           <div className='mt-7 p-5 rounded-xl bg-[#202022] shadow-inner'>
           <div class="skills">
-            <div class="skill" id="fr">
-              <span class="title">FRONTEND</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
-            </div>
-
-            <div class="skill" id="ba">
-              <span class="title">BACKEND</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
-            </div>
 
             <div class="skill" id="html">
               <span class="title">HTML</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
             </div>
     
             <div class="skill" id="css">
               <span class="title">CSS</span>
-              <div class="progress-bar rounded-xl">
-                <div class="progress"></div>
-              </div>
             </div>
     
             <div class="skill" id="js">
               <span class="title">JS</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
             </div>
 
             <div class="skill" id="php">
               <span class="title">PHP</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
             </div>
 
             <div class="skill" id="sql">
               <span class="title">MYSQL</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
-            </div>
-
-            <div class="skill" id="re">
-              <span class="title">REACT JS</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
             </div>
 
             <div class="skill" id="ne">
               <span class="title">NEXT JS</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
-            </div>
-
-            <div class="skill" id="ma">
-              <span class="title">MANGO DB</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
             </div>
 
             <div class="skill" id="jq">
               <span class="title">JQUERY</span>
-              <div class="progress-bar">
-                <div class="progress"></div>
-              </div>
+            </div>
+
+            <div class="skill" id="jq">
+              <span class="title">MERN Stack (Mangodb | Expressjs | Reactjs | Nodejs )</span>
             </div>
           </div>
         </div>

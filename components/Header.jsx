@@ -27,8 +27,7 @@ const Header = () => {
 
   return (
     <>
-    {/* <div className='md:w-[600px] w-[100%] md:h-[80px] h-[70px]  bg-[#282829] md:absolute fixed md:top-[-15px] md:right-[-20px] bottom-[-10px] md:p-5 md:rounded-3xl rounded-2xl flex items-center justify-center z-10'> */}
-        <ul className='header-item flex lg:gap-[80px] gap-[30px] md:gap-[60px] md:mt-[-10px] lg:mt-3 mt-[-5px] md:font-bold  '>
+        <ul className='header-item flex lg:gap-[80px] gap-[30px] md:gap-[60px] md:mt-[-10px] lg:mt-3 mt-[-5px] md:font-bold '>
            {
                 navlink.map((link) => {
                      const isActive = link.href === pathname;

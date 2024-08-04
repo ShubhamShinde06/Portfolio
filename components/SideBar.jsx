@@ -48,7 +48,7 @@ const SideBar = () => {
 
   return (
     <>
-      {IsBig ? <div className='lg:w-[30%] lg:h-[100vh] w-auto h-[15%] lg:p-10 lg:mt-[50px] p-4 md:w-[100%] md:h-[15%] lg:block' >
+      {IsBig ? <div className='lg:w-[30%] lg:h-[100vh] w-auto h-[15%] lg:p-10 lg:mt-[50px] p-4 md:w-[100%] md:h-[15%] lg:block side-border' >
         <div className='sidebar bg-[#1E1E1F] lg:w-[280px] lg:h-[85vh] w-[100%] h-[120px] md:w-[100%] rounded-2xl border-[#343434] border-[1px] flex lg:block relative overflow-hidden'>
           <div className='me-info w-full lg:h-[350px] h-[120px] bottom-border-2 md:grid lg:place-content-center'>
             <div className='lg:border-b-[2px] border-[#383838] pb-8 flex lg:block'>

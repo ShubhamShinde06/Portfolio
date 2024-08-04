@@ -8,7 +8,7 @@ const ContactUs = () => {
     <>
       <div className='lg:w-[70%] h-[100vh] md:w-[100%] w-[100%] absolute lg:top-[0px] right-0  p-4 md:p-4 lg:p-0 top-[85px] md:overflow-scroll '>
       <div className='bg-[#1E1E1F] lg:w-[80%] w-[100%] md:w-[100%] h-auto pb-[80px] rounded-2xl mt-[65px] mb-[67px] md:mt-[50px] lg:mt-[65px] border-[#343434] border-[1px] p-8 md:p-4  relative overflow-hidden lg:ml-8'>
-        <h1 className='text-[30px] font-bold '>Contact</h1>
+        <h1 className='text-[30px] font-bold text'>Contact</h1>
         <hr className='mt-5 w-[45px] h-[3px] border-2 border-[#FDC763] rounded-md' />
 
             <div className="w-auto h-auto mt-7 ">

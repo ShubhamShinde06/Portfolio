@@ -514,7 +514,56 @@ li{
     padding-left: 30px;
     border-bottom-left-radius: 30px;
   }
-
-
   
 }
+
+@media only screen and (min-width:1024px) and (max-width:1450px) {
+
+
+  .text{
+    margin-top: 50px;
+  }
+
+  .side-border{
+    margin-right: 200px;
+    border:none;
+  }
+
+  .font-size h1{
+    font-size: 15px;
+  }
+  .font-size p{
+    font-size: 14px;
+  }
+
+  .header-border{
+    width: 200px;
+  }
+
+}
+
+@media only screen and (min-width:1420px) and (max-width:1600px) {
+
+
+  /* .about-text{
+    margin-top: 50px;
+  } */
+
+  .side-border{
+    margin-right: 50px;
+    border:none;
+  }
+
+  /* .font-size h1{
+    font-size: 15px;
+  }
+  .font-size p{
+    font-size: 14px;
+  }
+
+  .header-border{
+    width: 200px;
+  } */
+
+}
+
