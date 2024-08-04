@@ -516,7 +516,6 @@ li{
   }
   
 }
-<<<<<<< HEAD
 
 @media only screen and (min-width:1024px) and (max-width:1450px) {
 
@@ -545,28 +544,13 @@ li{
 
 @media only screen and (min-width:1420px) and (max-width:1600px) {
 
-
-  /* .about-text{
-    margin-top: 50px;
-  } */
-
   .side-border{
     margin-right: 50px;
     border:none;
   }
 
-  /* .font-size h1{
-    font-size: 15px;
-  }
-  .font-size p{
-    font-size: 14px;
-  }
 
-  .header-border{
-    width: 200px;
-  } */
 
 }
 
-=======
->>>>>>> 1b1726160f17a6e2ee59eecb877201db9334b27d
+
