@@ -5,5 +5,19 @@
         "Discription":"Wed page",
         "href":"http://sh.liveblog365.com/todo/",
         "alt":"Project Demo"
+    },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/quiz/img/poster.png",
+        "ProjectName":"Quiz",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/quiz/",
+        "alt":"Project Demo"
+    },
+     {
+        "ProjectImg":"http://sh.liveblog365.com/password/img/poster.png",
+        "ProjectName":"Password Generator",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/password/",
+        "alt":"Project Demo"
     }
 ]
