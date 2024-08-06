@@ -19,5 +19,12 @@
         "Discription":"Wed page",
         "href":"http://sh.liveblog365.com/password/",
         "alt":"Project Demo"
+    },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/notes/img/poster.png",
+        "ProjectName":"Create Notes",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/notes/",
+        "alt":"Project Demo"
     }
 ]
