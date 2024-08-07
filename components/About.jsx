@@ -31,7 +31,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div className='hover:border-[#FFC663] lg:h-[150px] h-[170px] bg-[#212123] border-2 border-[#343434] lg:flex lg:items-center lg:p-5 p-4 rounded-2xl font-size'>
+{/*               <div className='hover:border-[#FFC663] lg:h-[150px] h-[170px] bg-[#212123] border-2 border-[#343434] lg:flex lg:items-center lg:p-5 p-4 rounded-2xl font-size'>
                 <div className='icon  w-[100%] lg:w-[100px] h-[auto] flex items-center justify-center text-[40px] text-[#FFC663] '>
                   <FaWordpressSimple/>
                 </div>
@@ -39,7 +39,7 @@ const About = () => {
                   <h1 className='mb-3 font-bold lg:text-[20px] text-center mt-2 lg:mt-0 lg:text-left'>Wordpress</h1>
                   <p className='text-[#D3D3D3] text-center lg:text-left'>High-quality development of sites at the professional level.</p>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
