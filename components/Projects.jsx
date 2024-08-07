@@ -14,12 +14,12 @@ return(
             <div className="w-auto h-auto mt-7">
                 <div className="text-[#9F9F9F]">All</div>
                 <div className="flex flex-col items-center justify-center mt-5">
-                    <div className=" grid mx-auto  grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[40px] gridproject">
+                    <div className=" grid mx-auto  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] gridproject">
                         {
                             data.map((item) => (
                                 <>
                                 <div className="w-[250px] h-[250px] rounded-xl cursor-pointer ">
-                                    <Link href={item.href} target="_blank"><div className="w-[250px] h-[180px] rounded-xl  bg-[#212123] flex items-center justify-center overflow-hidden p-5">
+                                    <Link href={item.href} target="_blank"><div className="w-[250px] h-[180px] rounded-xl  bg-[#212123] flex items-center justify-center overflow-hidden p-3">
                                     <Image
                                         // src={todo}
                                         src={item.ProjectImg}
