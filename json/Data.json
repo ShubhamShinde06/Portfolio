@@ -6,13 +6,34 @@
         "href":"http://sh.liveblog365.com/quote/",
         "alt":"Project Demo"
     },
-        {
+    {
         "ProjectImg":"http://sh.liveblog365.com/landing/assets/img/poster.png",
         "ProjectName":"Real Estate",
         "Discription":"Wed page",
         "href":"http://sh.liveblog365.com/landing/",
         "alt":"Project Demo"
     },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/popup/img/poster.png",
+        "ProjectName":"Popup Msg",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/popup/",
+        "alt":"Project Demo"
+    },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/qr/img/poster.png",
+        "ProjectName":"QR generator",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/qr/",
+        "alt":"Project Demo"
+    },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/age/img/poster.png",
+        "ProjectName":"Age calculator",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/age/",
+        "alt":"Project Demo"
+    }, 
     {
         "ProjectImg":"http://sh.liveblog365.com/todo/img/poster.png",
         "ProjectName":"ToDo",
