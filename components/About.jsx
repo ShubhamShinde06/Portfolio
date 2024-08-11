@@ -37,7 +37,7 @@ const About = () => {
                 </div>
                 <div className='lg:mt-3 lg:ml-5 break-all '>
                   <h1 className='mb-3 font-bold lg:text-[20px] text-center mt-2 lg:mt-0 lg:text-left'>Backend Development</h1>
-                  <p className='text-[#D3D3D3] text-center lg:text-left'>Backend development is the server-side of the website. It is responsible for managing data within the database and serving that data to the front-end to be displayed..</p>
+                  <p className='text-[#D3D3D3] text-center lg:text-left'>server-side of the website. and serving that data to the front-end to be displayed..</p>
                 </div>
               </div> 
 
