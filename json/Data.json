@@ -7,7 +7,6 @@
         "alt":"Project Demo"
     },
     {
-<<<<<<< HEAD
      "ProjectImg":"http://sh.liveblog365.com/quote/img/main.png",
      "ProjectName":"Api fetch",
      "Discription":"JavaScript",
@@ -71,7 +70,6 @@
      "alt":"Project Demo"
  }
 ]
-=======
         "ProjectImg":"http://sh.liveblog365.com/landing/assets/img/poster.png",
         "ProjectName":"Real Estate",
         "Discription":"Wed page",
@@ -128,4 +126,4 @@
         "alt":"Project Demo"
     }
 ]
->>>>>>> 1804874f6a35fd88cf99045b832e814d8bb80ef7
+
