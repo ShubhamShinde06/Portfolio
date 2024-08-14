@@ -39,7 +39,6 @@ return(
             <h1 className='text-[30px] font-bold text'>Projects</h1>
             <hr className='mt-5 w-[45px] h-[3px] border-2 border-[#FDC763] rounded-md' />
             <div className="w-auto h-auto mt-7">
-<<<<<<< HEAD
                 <div className="text-[#9F9F9F] flex gap-9">
                     {
                         buttons.map((item, index) => (
@@ -51,7 +50,6 @@ return(
                             </button>
                         ))
                     }
-=======
                 <div className="text-[#9F9F9F]">All</div>
                 <div className="flex flex-col items-center justify-center mt-5">
                     <div className=" grid mx-auto  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] gridproject">
@@ -79,7 +77,6 @@ return(
                             ))
                         }                   
                     </div>
->>>>>>> 1804874f6a35fd88cf99045b832e814d8bb80ef7
                 </div>
                 <RenderComponets index={isSelected}/>
             </div>
