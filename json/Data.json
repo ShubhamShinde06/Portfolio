@@ -1,5 +1,13 @@
 [
+       {
+        "ProjectImg":"http://sh.liveblog365.com/quote/img/main.png",
+        "ProjectName":"Api fetch",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/quote/",
+        "alt":"Project Demo"
+    },
     {
+<<<<<<< HEAD
      "ProjectImg":"http://sh.liveblog365.com/quote/img/main.png",
      "ProjectName":"Api fetch",
      "Discription":"JavaScript",
@@ -63,3 +71,61 @@
      "alt":"Project Demo"
  }
 ]
+=======
+        "ProjectImg":"http://sh.liveblog365.com/landing/assets/img/poster.png",
+        "ProjectName":"Real Estate",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/landing/",
+        "alt":"Project Demo"
+    },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/popup/img/poster.png",
+        "ProjectName":"Popup Msg",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/popup/",
+        "alt":"Project Demo"
+    },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/qr/img/poster.png",
+        "ProjectName":"QR generator",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/qr/",
+        "alt":"Project Demo"
+    },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/age/img/poster.png",
+        "ProjectName":"Age calculator",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/age/",
+        "alt":"Project Demo"
+    }, 
+    {
+        "ProjectImg":"http://sh.liveblog365.com/todo/img/poster.png",
+        "ProjectName":"ToDo",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/todo/",
+        "alt":"Project Demo"
+    },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/quiz/img/poster.png",
+        "ProjectName":"Quiz",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/quiz/",
+        "alt":"Project Demo"
+    },
+     {
+        "ProjectImg":"http://sh.liveblog365.com/password/img/poster.png",
+        "ProjectName":"Password Generator",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/password/",
+        "alt":"Project Demo"
+    },
+    {
+        "ProjectImg":"http://sh.liveblog365.com/notes/img/poster.png",
+        "ProjectName":"Create Notes",
+        "Discription":"Wed page",
+        "href":"http://sh.liveblog365.com/notes/",
+        "alt":"Project Demo"
+    }
+]
+>>>>>>> 1804874f6a35fd88cf99045b832e814d8bb80ef7
