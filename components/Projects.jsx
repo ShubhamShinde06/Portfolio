@@ -29,7 +29,7 @@ const Projects = () => {
             default:
                 break;
         }
-    }
+    
 
 
 return(
@@ -85,6 +85,7 @@ return(
     </div>
     </>
 )
+}
 
 
 export default Projects;
