@@ -14,11 +14,11 @@ const Resume = () => {
         
         <div className='mt-9 ml-5'>
           <div className="flex  justify-center mt-9 gap-10">
-            <div className='border-2 md:h-[350px] h-[600px]  border-[#383838] relative'>
+            <div className='border-2 md:h-[350px] h-[560px]  border-[#383838] relative'>
               <div className='shadow-style w-[40px] h-[40px] absolute left-[-20px] top-[-5px] rounded-xl bg-[#202022] flex items-center justify-center text-[#FDC763] shadow-inner'><FaBookOpen /></div>
               <div className='text-[15px] absolute md:top-[68px] top-[70px] text-[#FDC763] left-[-7px]'><FaRegCircleDot /></div>
-              <div className='text-[15px] absolute md:top-[205px] top-[275px] text-[#FDC763] left-[-7px]'><FaRegCircleDot /></div>
-              <div className='text-[15px] absolute md:top-[335px] top-[600px] text-[#FDC763] left-[-7px]'><FaRegCircleDot /></div>
+              <div className='text-[15px] absolute md:top-[205px] top-[330px] text-[#FDC763] left-[-7px]'><FaRegCircleDot /></div>
+              <div className='text-[15px] absolute md:top-[335px] top-[550px] text-[#FDC763] left-[-7px]'><FaRegCircleDot /></div>
             </div>
 
             <div className='w-[100%] h-auto '>
@@ -47,10 +47,10 @@ const Resume = () => {
 
         <div className='mt-9 ml-5'>
           <div className="flex  justify-center mt-9 gap-10">
-            <div className='border-2 md:h-[220px] h-[300px] border-[#383838] relative'>
+            <div className='border-2 md:h-[220px] h-[250px] border-[#383838] relative'>
               <div className='shadow-style w-[40px] h-[40px] absolute left-[-20px] top-[-5px] rounded-xl bg-[#202022] flex items-center justify-center text-[#FDC763] shadow-inner'><FaBookOpen /></div>
               <div className='text-[15px] absolute top-[68px] text-[#FDC763] left-[-7px]'><FaRegCircleDot /></div>
-              <div className='text-[15px] absolute md:top-[205px] top-[300px] text-[#FDC763] left-[-7px]'><FaRegCircleDot /></div>
+              <div className='text-[15px] absolute md:top-[205px] top-[250px] text-[#FDC763] left-[-7px]'><FaRegCircleDot /></div>
               {/* <div className='text-[15px] absolute top-[335px] text-[#FDC763] left-[-7px]'><FaRegCircleDot /></div> */}
             </div>
             

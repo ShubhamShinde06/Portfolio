@@ -55,7 +55,7 @@ const SideBar = () => {
               <div className='lg:w-[150px] lg:h-[150px] w-[100px] h-[100px] lg:ml-6 mt-2 ml-2  rounded-full flex items-center justify-center'>
                 <Image src={meimg} alt='my-img'/>
               </div>
-              <div className='lg:text-[25px] text-[18px] lg:mt-3 mt-[30px] ml-[10px] font-bold'>
+              <div className='lg:text-[25px] text-[18px] lg:mt-3 mt-[30px] ml-[10px] md:ml-[0px] font-bold '>
                 <Link href={'/'} ref={el}><h2></h2></Link>
               </div>
               <div className='text-center bg-[#2B2B2C] w-[130px] rounded-md p-[5px] ml-9 mt-5 hidden lg:block'>
@@ -124,7 +124,7 @@ const SideBar = () => {
         </div>
       </div> 
       :
-      <div className='lg:w-[30%] lg:h-[100vh] w-auto h-[15%]  lg:p-10 lg:mt-[50px] p-4 lg:hidden' >
+      <div className='lg:w-[30%] lg:h-[100vh] w-auto h-[15%]  lg:p-10 lg:mt-[50px] p-4 lg:hidden transition-all ' >
         <div className='show bg-[#1E1E1F] lg:w-[280px] lg:h-[85vh] w-[100%] h-[530px] rounded-2xl border-[#343434] border-[1px] flex lg:block relative overflow-hidden z-10'>
           <div className='me-info w-full lg:h-[350px] h-[120px] bottom-border-2 lg:grid place-content-center'>
             <div className='lg:border-b-[2px] border-[#383838] pb-8 flex lg:block'>
