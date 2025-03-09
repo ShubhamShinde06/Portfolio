@@ -19,7 +19,7 @@ const RenderComponents = ({ index }) => {
 };
 
 const Projects = () => {
-    const buttons = ["All", "JavaScript", "HTML CSS"];
+    const buttons = ["All"];
     const [isSelected, setIsSelected] = useState(0);
 
     return (
