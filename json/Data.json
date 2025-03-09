@@ -1,38 +1,51 @@
 [
-
-  {
-    "ProjectImg": "/chat-demo.png",
-    "ProjectName": "Own chat",
-    "Discription": "MERN",
-    "href": "https://chat-app-qlm0.onrender.com",
-    "alt": "Project Demo"
-  },
   {
     "ProjectImg": "/ott-frontend-demo.png",
-    "ProjectName": "Streamy-ott",
+    "ProjectName": "Streamy OTT",
     "Discription": "MERN",
     "href": "https://streamy-ott.onrender.com/home",
     "alt": "Project Demo"
   },
   {
     "ProjectImg": "/ott-admin-demo.png",
-    "ProjectName": "Streamy-ott-admin",
+    "ProjectName": "Streamy OTT (Admin)",
     "Discription": "MERN",
     "href": "https://streamy-ott-admin.onrender.com/",
     "alt": "Project Demo"
   },
   {
     "ProjectImg": "/clothe-frontend.png",
-    "ProjectName": "cloth-e-commerce",
-    "Discription": "JavaScript",
+    "ProjectName": "clothing ecommerce",
+    "Discription": "MERN",
     "href": "https://cloth-e-commerce-main.onrender.com/",
     "alt": "Project Demo"
   },
   {
     "ProjectImg": "/clothe-admin.png",
-    "ProjectName": "cloth-e-commerce-admin",
-    "Discription": "JavaScript",
+    "ProjectName": "clothing ecommerce (Admin)",
+    "Discription": "MERN",
     "href": "https://cloth-e-commerce-app.onrender.com/add",
+    "alt": "Project Demo"
+  },
+  {
+    "ProjectImg": "/blinkit-frontend.png",
+    "ProjectName": "grocery quick commerce",
+    "Discription": "MERN",
+    "href": "https://grocery-app-main.onrender.com/home",
+    "alt": "Project Demo"
+  },
+  {
+    "ProjectImg": "/blinkit-admin.png",
+    "ProjectName": "grocery quick commerce (Admin)",
+    "Discription": "MERN",
+    "href": "https://grocery-app-shop-admin.onrender.com/",
+    "alt": "Project Demo"
+  },
+  {
+    "ProjectImg": "/chat-demo.png",
+    "ProjectName": "Own chat",
+    "Discription": "MERN",
+    "href": "https://chat-app-qlm0.onrender.com",
     "alt": "Project Demo"
   }
 ]

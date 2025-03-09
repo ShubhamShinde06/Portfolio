@@ -5,34 +5,32 @@ import Image from 'next/image'
 
 const All = () => {
   return (
-    <div>
-        <div className="flex flex-col items-center justify-center mt-5" >
-                    <div className=" grid mx-auto  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] gridproject">
-                        {
-                            data.map((item) => (
-                                <>
-                                <div className="w-[250px] h-[250px] rounded-xl cursor-pointer">
-                                    <Link href={item.href} target='new_tab'><div className="w-[250px] h-[180px] rounded-xl  bg-[#212123] flex items-center justify-center">
-                                    <Image
-                                        // src={todo}
-                                        src={item.ProjectImg}
-                                        width={500}
-                                        height={500}
-                                        alt={item.alt}
-                                    />
-                                    </div></Link>
-                                    <div className="w-[250px] h-[80px] p-1 flex items-center">
-                                        <div>
-                                            <h6>{item.ProjectName}</h6>
-                                            <p className="text-[#9E9E9E] text-[15px]">{item.Discription}</p> 
-                                        </div>                                
-                                    </div>
-                                </div>
-                                </>
-                            ))
-                        }                   
-                    </div> 
-                </div> 
+    <div className="flex flex-col items-center justify-center mt-10 px-4">
+      <div className="grid mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        {data.map((item, index) => (
+          <div
+            key={index}
+            className="w-[280px] rounded-2xl cursor-pointer transition-transform transform hover:scale-105 hover:shadow-xl bg-[#1A1A1D] text-white"
+          >
+            <Link href={item.href} target="_blank">
+              <div className="w-full h-[180px] rounded-t-2xl overflow-hidden bg-[#212123] flex items-center justify-center">
+                <Image
+                  src={item.ProjectImg}
+                  width={500}
+                  height={500}
+                  alt={item.alt}
+                  className="object-cover w-full h-full"
+                  loading="lazy"
+                />
+              </div>
+            </Link>
+            <div className="p-4">
+              <h3 className="text-lg font-semibold">{item.ProjectName}</h3>
+              <p className="text-sm text-gray-400 mt-1">{item.Discription}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }

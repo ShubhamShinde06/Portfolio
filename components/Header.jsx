@@ -31,13 +31,13 @@ const Header = () => {
            {
                 navlink.map((link) => {
                      const isActive = link.href === pathname;
-
                     return(
                         <>
                             <Link 
                                 key={link.name} 
                                 href={link.href}
                                 className={isActive ? "text-[#FFDB70]":"text-[#A2A2A2]"} 
+                                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                             >
                                 {link.name}
                             </Link>
