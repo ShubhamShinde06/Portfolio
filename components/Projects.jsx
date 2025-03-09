@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> eee5c20e884f1eb2cd3947f179f2c68a21d01e09
 'use client';
 import Header from "./Header";
 import { useState } from "react";
@@ -9,17 +13,28 @@ export const RenderComponents = ({ index }) => {
     switch (index) {
         case 0:
             return <All />;
+<<<<<<< HEAD
         // case 1:
         //     return <JavaScript />;
         // case 2:
         //     return <HtmlCss />;
+=======
+        case 1:
+            return <JavaScript />;
+        case 2:
+            return <HtmlCss />;
+>>>>>>> eee5c20e884f1eb2cd3947f179f2c68a21d01e09
         default:
             return null;
     }
 };
 
 const Projects = () => {
+<<<<<<< HEAD
     const buttons = ["All"];
+=======
+    const buttons = ["All", "JavaScript", "HTML CSS"];
+>>>>>>> eee5c20e884f1eb2cd3947f179f2c68a21d01e09
     const [isSelected, setIsSelected] = useState(0);
 
     return (
