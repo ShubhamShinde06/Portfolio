@@ -12,7 +12,7 @@ const All = () => {
                             data.map((item) => (
                                 <>
                                 <div className="w-[250px] h-[250px] rounded-xl cursor-pointer">
-                                    <Link href={item.href}><div className="w-[250px] h-[180px] rounded-xl  bg-[#212123] flex items-center justify-center">
+                                    <Link href={item.href} target='new_tab'><div className="w-[250px] h-[180px] rounded-xl  bg-[#212123] flex items-center justify-center">
                                     <Image
                                         // src={todo}
                                         src={item.ProjectImg}

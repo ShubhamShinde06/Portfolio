@@ -1,30 +1,37 @@
 [
   {
-    "ProjectImg": "https://drive.google.com/file/d/1KliqDynJmJDKhDUgpL6edOnTcJfMePLB/view?usp=sharing",
+    "ProjectImg": "/chat-demo.png",
     "ProjectName": "Own chat",
     "Discription": "MERN",
     "href": "https://chat-app-qlm0.onrender.com",
     "alt": "Project Demo"
   },
   {
-    "ProjectImg": "http://sh.liveblog365.com/quote/img/main.png",
-    "ProjectName": "Streamy(OTT)",
+    "ProjectImg": "/ott-frontend-demo.png",
+    "ProjectName": "Streamy-ott",
     "Discription": "MERN",
-    "href": "http://sh.liveblog365.com/quote/",
+    "href": "https://streamy-ott.onrender.com/home",
     "alt": "Project Demo"
   },
   {
-    "ProjectImg": "http://sh.liveblog365.com/popup/img/poster.png",
-    "ProjectName": "Popup Msg",
-    "Discription": "JavaScript",
-    "href": "http://sh.liveblog365.com/popup/",
+    "ProjectImg": "/ott-admin-demo.png",
+    "ProjectName": "Streamy-ott-admin",
+    "Discription": "MERN",
+    "href": "https://streamy-ott-admin.onrender.com/",
     "alt": "Project Demo"
   },
   {
-    "ProjectImg": "http://sh.liveblog365.com/qr/img/poster.png",
-    "ProjectName": "QR generator",
+    "ProjectImg": "/clothe-frontend.png",
+    "ProjectName": "cloth-e-commerce",
     "Discription": "JavaScript",
-    "href": "http://sh.liveblog365.com/qr/",
+    "href": "https://cloth-e-commerce-main.onrender.com/",
+    "alt": "Project Demo"
+  },
+  {
+    "ProjectImg": "/clothe-admin.png",
+    "ProjectName": "cloth-e-commerce-admin",
+    "Discription": "JavaScript",
+    "href": "https://cloth-e-commerce-app.onrender.com/add",
     "alt": "Project Demo"
   }
 ]

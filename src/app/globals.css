@@ -53,15 +53,24 @@ li{
   box-shadow: 0.5px 0.5px 1px rgba(255, 255, 255, 0.455) inset;
 }
 
-.skills {
+/* .skills {
   padding: 10px;
   width: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: black;
+} */
+
+.skill-card {
+  @apply flex flex-col items-center bg-white bg-transparent shadow-lg rounded-2xl p-4 transition-transform hover:scale-105;
 }
+
+.icon {
+  @apply w-12 h-12 mb-2;
+}
+
 
 .skill {
   width: 100%;
