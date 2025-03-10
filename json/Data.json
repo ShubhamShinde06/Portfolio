@@ -3,21 +3,21 @@
     "ProjectImg": "/ott-frontend-demo.png",
     "ProjectName": "Streamy OTT",
     "Discription": "MERN",
-    "href": "https://streamy-ott.onrender.com/home",
+    "href": "https://streamy-ott.onrender.com",
     "alt": "Project Demo"
   },
   {
     "ProjectImg": "/ott-admin-demo.png",
     "ProjectName": "Streamy OTT (Admin)",
     "Discription": "MERN",
-    "href": "https://streamy-ott-admin.onrender.com/",
+    "href": "https://streamy-ott-admin.onrender.com",
     "alt": "Project Demo"
   },
   {
     "ProjectImg": "/clothe-frontend.png",
     "ProjectName": "clothing ecommerce",
     "Discription": "MERN",
-    "href": "https://cloth-e-commerce-main.onrender.com/",
+    "href": "https://cloth-e-commerce-main.onrender.com",
     "alt": "Project Demo"
   },
   {
@@ -31,14 +31,14 @@
     "ProjectImg": "/blinkit-frontend.png",
     "ProjectName": "grocery quick commerce",
     "Discription": "MERN",
-    "href": "https://grocery-app-main.onrender.com/home",
+    "href": "https://grocery-app-main.onrender.com",
     "alt": "Project Demo"
   },
   {
     "ProjectImg": "/blinkit-admin.png",
     "ProjectName": "grocery quick commerce (Admin)",
     "Discription": "MERN",
-    "href": "https://grocery-app-shop-admin.onrender.com/",
+    "href": "https://grocery-app-shop-admin.onrender.com",
     "alt": "Project Demo"
   },
   {
