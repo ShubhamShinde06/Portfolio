@@ -42,6 +42,20 @@
     "alt": "Project Demo"
   },
   {
+    "ProjectImg": "/blog-frontend.png",
+    "ProjectName": "Blog",
+    "Discription": "MERN",
+    "href": "https://blog-blogger.onrender.com/",
+    "alt": "Project Demo"
+  },
+  {
+    "ProjectImg": "/blog-admin.png",
+    "ProjectName": "Blog (Admin)",
+    "Discription": "MERN",
+    "href": "https://blog-blogger-admin.onrender.com/",
+    "alt": "Project Demo"
+  },
+  {
     "ProjectImg": "/chat-demo.png",
     "ProjectName": "Own chat",
     "Discription": "MERN",
